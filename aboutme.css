@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(178, 241, 239);
+    font-family: 'Inter', sans-serif;
+    
+}
+
+body{
+    height: 100%;
+}
+
+.main-page{
+    display: flex;
+}
+
+.navigation{
+    background-color: rgb(6, 6, 38);
+    width: 15vw;
+    font-size: large;
+    padding: 20px 20px;
+}
+button a{
+    text-decoration: none;
+}
+
+.image-section{
+    width: 85vw;
+    background-color: rgb(6, 6, 38);
+}
+
+.main-image img{
+    position: relative;
+    width: 1300px;
+    height: 860px;
+    /* filter: blur(10px); */
+  /* -webkit-filter: blur(10px) ; */
+  filter: blur(4px) brightness(50%);
+}
+.in-name{
+    position: absolute;
+    transform: translate(185px, -647px);
+    font-family: 'Sora', sans-serif;
+    font-size: 30px;
+    width: 70%;
+    /* border: 4px solid rgb(178, 241, 239); */
+    /* padding: 100px 200px; */
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.in-name h3{
+    font-size: 30px;
+}
+
+.in-name p{
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.passport-img:hover{
+    padding: 30px 5px;
+    transition: 2s;
+    transform: scale(1.5);
+
+}
+.name h3:hover{
+    transition: 2s;
+    padding: 10px 0;
+    font-size: 20px;
+    text-shadow: 5px 5px 5px black, 0 0 40px rgb(231, 231, 235), 0 0 5px darkblue;
+}
+
+.passport-img img{
+    /* margin-left: 5px; */
+    border: 5px solid rgb(178, 241, 239);
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    margin-left: 10%;
+    /* box-shadow: 3px 5px 3px rgb(65, 214, 227); */
+}
+
+.btn{
+    margin-top: 40px;
+}
+
+button{
+    padding: 10px 40px;
+    border-radius: 2rem;
+    background-color:  rgb(6, 6, 38);
+    font-size: 20px;
+    border: 3px solid  rgb(178, 241, 239);
+}
+button:hover{
+    transition: 2s;
+    padding: 20px 50px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.medias img{
+    width: 30px;
+    margin: 0 7px;
+}
+
+.medias img:hover{
+    color: white;
+    background-color: rgb(48, 48, 64);
+    padding: 10px 10px;
+    border-radius: 1rem;
+    transition: 2s;
+}
+.copyright{
+    font-size: 15px;
+    margin-top: 200px;
+}
+.name{
+    padding: 20px 0;
+    font-size: 15px;
+}
+
+.menus{
+    padding: 20px 10px;
+}
+
+.home{
+    padding: 20px 0;
+}
+.home a{
+    text-decoration: none;
+}
+
+.home a:hover{
+    color: white;
+    background-color: rgb(48, 48, 64);
+    padding: 10px 10px;
+    border-radius: 1rem;
+    transition: 2s;
+    text-decoration: underline;
+}
+/* .in-name h1:hover{
+    color: white;
+    font-size: 80px;
+    padding: 20px 20px;
+    border-radius: 5rem;
+    transition: 2s;
+    text-decoration: underline;
+} */
+/* .in-name h3:hover{
+    color: white;
+    font-size: 60px;
+    padding: 20px 20px;
+    border-radius: 5rem;
+    transition: 2s;
+    text-decoration: underline;
+} */
+
+.home img{
+    width: 15px;
+}
+
